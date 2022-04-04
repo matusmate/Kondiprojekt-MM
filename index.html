@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>CSS Website Layout</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+}
+
+/* Style the header */
+.header {
+  background-color:yellow;
+  padding: 20px;
+  text-align: center;
+}
+
+/* Style the top navigation bar */
+.topnav {
+  overflow: hidden;
+  background-color: #333;
+}
+
+/* Style the topnav links */
+.topnav a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+/* Change color on hover */
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+/* Create three equal columns that floats next to each other */
+.column {
+  float: left;
+  width: 33.33%;
+  padding: 15px;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Responsive layout - makes the three columns stack on top of each other instead of next to each other */
+@media screen and (max-width:600px) {
+  .column {
+    width: 100%;
+  }
+}
+</style>
+</head>
+<body>
+
+<div class="header">
+  <h1>Konditerem</h1>
+  <p></p>
+</div>
+
+<div class="topnav">
+  <a href="#">Lehúzás bicepszre</a>
+  <a href="#">Kábeles evezés</a>
+  <a href="#">A padra guggolás</a>
+  <a href="#">Fekvőtámasz</a>
+  <a href="#">A Kitörés gyakorlat</a>
+  <a href="#">Tolódzkodás</a>
+  <a href="#">Fej fölé nyomás egykezes súlyzóval állva</a>
+  <a href="#">Felhúzás - elemelés</a>
+</div>
+
+<div class="row">
+  <div class="">
+    <h1>Lehúzás bicepszre</h1>
+
+    <h2>Hatás</h2>
+
+    <p>legjobban a bicepszet valamint a széles hatizmok alsó rászét dolgoztatja meg.</p>
+
+    <h2>Kiinduló helyzet</h2>
+
+    <p>A rudat szűk, maximum vallszélességű fogással kell megfogni.<br>A tenyereknek az arc felé kell nézni.</p>
+
+    <h2>A mozgás a gyakorlat végzése közben</h2>
+
+    <p>A rudat a bicepsz erejével kell lehúzni mellkasig, majd aztán lassan kell vissza engedi a rudat.</p>
+
+
+
+    <iframe data-v-67d7f059="" src="https://player.vimeo.com/video/130071059?autoplay=0&amp;title=0&amp;byline=0&amp;portrait=0" allow="fullscreen; picture-in-picture" allowfullscreen="allowfullscreen" class="widget-vimeo-iframe"></iframe>
+  </div>
+  
+  <div class="">
+
+    <h1>Kábeles evezés</h1>
+    
+
+    <h2>Hatás</h2>
+
+    <p>Leginkább a hátizom alsó részét dolgoztatja meg.</p>
+    
+    <h2>Kiindukó helyzet</h2>
+
+    <p>A gyakorlathoz szükség van egy hosszú kábeles gépre. <br>
+    Rögzítsd a lábadat a géphez, majd a foganytyút húzd vízzsintesen a tested középső része felé.</p>
+
+
+
+
+
+  </div>
+  
+  <div class="">
+    <h2></h2>
+    <p></p>
+  </div>
+</div>
+
+</body>
+</html>
